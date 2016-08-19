@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/TextView000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="猜"
+        android:textColor="#FFFF00"
+        android:textSize="260sp" />
+
+    <FrameLayout
+        android:id="@+id/blocks_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/TextView001"
+            android:layout_width="@dimen/tile_base_size"
+            android:layout_height="@dimen/tile_base_size_2"
+            android:layout_marginLeft="0dip"
+            android:layout_marginTop="0dip"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/TextView002"
+            android:layout_width="@dimen/tile_base_size_2"
+            android:layout_height="@dimen/tile_base_size_2"
+            android:layout_marginLeft="100dip"
+            android:layout_marginTop="0dip"
+            android:background="#A0CFCF"
+            android:gravity="center"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/TextView003"
+            android:layout_width="@dimen/tile_base_size"
+            android:layout_height="@dimen/tile_base_size_2"
+            android:layout_marginLeft="300dip"
+            android:layout_marginTop="0dip"
+            android:background="#CF00CF"
+            android:gravity="center"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/TextView004"
+            android:layout_width="@dimen/tile_base_size"
+            android:layout_height="@dimen/tile_base_size_2"
+            android:layout_marginLeft="0dip"
+            android:layout_marginTop="200dip"
+            android:background="#0FA03F"
+            android:gravity="center"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/TextView005"
+            android:layout_width="@dimen/tile_base_size_2"
+            android:layout_height="@dimen/tile_base_size"
+            android:layout_marginLeft="100dip"
+            android:layout_marginTop="200dip"
+            android:background="#A0AF0F"
+            android:gravity="center"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/TextView006"
+            android:layout_width="@dimen/tile_base_size"
+            android:layout_height="@dimen/tile_base_size_2"
+            android:layout_marginLeft="300dip"
+            android:layout_marginTop="200dip"
+            android:background="#C0443F"
+            android:gravity="center"
+            android:text="6" />
+
+        <TextView
+            android:id="@+id/TextView007"
+            android:layout_width="@dimen/tile_base_size"
+            android:layout_height="@dimen/tile_base_size"
+            android:layout_marginLeft="100dip"
+            android:layout_marginTop="300dip"
+            android:background="#FA003F"
+            android:gravity="center"
+            android:text="7" />
+
+        <TextView
+            android:id="@+id/TextView008"
+            android:layout_width="@dimen/tile_base_size"
+            android:layout_height="@dimen/tile_base_size"
+            android:layout_marginLeft="200dip"
+            android:layout_marginTop="300dip"
+            android:background="#64987F"
+            android:gravity="center"
+            android:text="8" />
+
+        <TextView
+            android:id="@+id/TextView009"
+            android:layout_width="@dimen/tile_base_size"
+            android:layout_height="@dimen/tile_base_size"
+            android:layout_marginLeft="0dip"
+            android:layout_marginTop="400dip"
+            android:background="#62347F"
+            android:gravity="center"
+            android:text="9" />
+
+        <TextView
+            android:id="@+id/TextView010"
+            android:layout_width="@dimen/tile_base_size"
+            android:layout_height="@dimen/tile_base_size"
+            android:layout_marginLeft="300dip"
+            android:layout_marginTop="400dip"
+            android:background="#375984"
+            android:gravity="center"
+            android:text="10" />
+    </FrameLayout>
+
+</FrameLayout>
