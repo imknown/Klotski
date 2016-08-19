@@ -1,6 +1,6 @@
 # Intro
 A test game called '华容道' written in ‎2014-‎12-0‎4.  
-Now i convert this into.  
+Now i convert this Eclipse-ADT project into Android Studio project.  
 ~~Nothing to share, but just to commemorate the time.~~
 
 # Attention
