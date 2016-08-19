@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="net.imknown.threekingdomscrosswords"
+<manifest package="com.dengdeng123.klotski"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
