@@ -1,4 +1,4 @@
-package net.imknown.threekingdomscrosswords;
+package com.dengdeng123.klotski;
 
 import java.io.Serializable;
 
